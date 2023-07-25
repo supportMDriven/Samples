@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Samples/FileContentIndex
+/.vs/Samples/v17
+/.vs
+/WebApiServerAndClient/.vs/WebApiServerAndClient
+/WebApiServerAndClient/AppCompleteGeneric.Model/bin
+/WebApiServerAndClient/AppCompleteGeneric.Model/obj
+/WebApiServerAndClient/MDrivenMinimalWecpof1/bin/debug
+/WebApiServerAndClient/MDrivenMinimalWecpof1/obj
+/WebApiServerAndClient/MDrivenMinimalWecpof2/obj
+/WebApiServerAndClient/MyEcoSpace/bin
+/WebApiServerAndClient/MyEcoSpace/obj
+/WebApiServerAndClient/PServerIis/bin
+/WebApiServerAndClient/PServerIis/obj
+/WebApiServerAndClient/packages
