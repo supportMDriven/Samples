@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormClass1Class2MultiLink" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RequiresRootObject="True" RowCount="5" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="2e060490-c1dc-4e6e-aeda-a8644d2a9f22">
+  <Category>
+    <Category Name="AutoForms" idref="ea017d6a-5292-4fc3-8964-c422469a3b7e" />
+  </Category>
+  <Class>
+    <Class Name="Class1" idref="9705dc45-b787-43d9-a81d-76eebb8a128d" />
+  </Class>
+  <Nesting>
+    <Nesting Name="Class2" ExpressionActAsForActions="" id="320315da-19cc-4786-98b2-a1de032c4590">
+      <Class>
+        <Class Name="Class2" idref="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0" />
+      </Class>
+      <OwnedColumns>
+        <Column Name="AsString" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.asString" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="b93b5a61-f1c0-4a03-b923-3423fc060c3e" />
+        <Column Name="Attribute1" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.Attribute1" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="84f2d7a0-ea99-470b-a384-23d4b0cf58da" />
+        <Column Name="Attribute2" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.Attribute2" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="31ce31bd-692e-4e67-8bfa-8f6efce1a1b4" />
+        <Column Name="Attribute3" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.Attribute3" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="87ac7e70-f1d5-4601-8f96-8a55fdc1c117" />
+      </OwnedColumns>
+      <ReferedByColumn>
+        <Column Name="Class2" idref="49c61162-c376-4db5-8d22-91b4a74089b2" />
+      </ReferedByColumn>
+      <TaggedValue>
+        <TaggedValue Tag="Eco.AlwaysShowActions" Value="true" />
+        <TaggedValue Tag="MultiSelect" Value="true" />
+      </TaggedValue>
+    </Nesting>
+  </Nesting>
+  <OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ContextAction Name="unlinkClass2" idref="53175d2b-c8dd-48e2-98a0-d28cbb9d8448" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ContextAction Name="CreateAndAddClass2" idref="3c78b416-4727-474d-b0ea-98b78f292552" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+  </OptOutActionInSpan>
+  <OwnedColumns>
+    <Column Name="Class2" ActionPeriodicityMillisec="-1" ColSpan="13" ColSpanWhenInGrid="1" Expression="self.Class2" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="" PresentationStringColSpan="1" RowSpan="10" StyleRef="" XPos="0" YPos="1" id="49c61162-c376-4db5-8d22-91b4a74089b2">
+      <ReferedNesting>
+        <Nesting Name="Class2" idref="320315da-19cc-4786-98b2-a1de032c4590" />
+      </ReferedNesting>
+    </Column>
+    <Column Name="FindAndAddClass2" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;..." PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="2" YPos="0" id="ebc4bd53-44bd-4e7c-bfe7-6149210207b4">
+      <ActionToExecute>
+        <ContextAction Name="FindAndAddClass2" idref="cf23c648-a462-4d4e-a888-25d59729a6c5" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="PresClass2" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="'Class2'" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="True" NullRowMode="None" NullRowRepresentation="" PresentationString="" PresentationStringColSpan="0" RowSpan="1" StyleRef="h3" XPos="0" YPos="0" id="7cfd81df-b6de-46fa-ae30-06484a8ba94c" />
+    <Column Name="UnlinkClass2" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="7" YPos="0" id="b147e128-0678-46eb-841c-06dbe50e144f">
+      <ActionToExecute>
+        <ContextAction Name="unlinkClass2" idref="53175d2b-c8dd-48e2-98a0-d28cbb9d8448" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="AddNewClass2" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;..." PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="4" YPos="0" id="d2ffc946-5652-4c44-8ad8-8c04da55413f">
+      <ActionToExecute>
+        <ContextAction Name="CreateAndAddClass2" idref="3c78b416-4727-474d-b0ea-98b78f292552" />
+      </ActionToExecute>
+    </Column>
+  </OwnedColumns>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>

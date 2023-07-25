@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Diagram Name="Diagram1" ChangeDate="0001-01-01 00:00:00" ColorOnNew="0" Comment="" Designer="" ShowAssociationNames="DimDefaults" ShowMethodReturnTypes="False" ShowMethodSignatures="False" ShowVisibility="False" SnapGridSize="8" SquareNewAssociations="False" SquareNewGeneralizations="False" ZoomScaleFactor="0" Id="9c9eec97-d41d-4d8d-8bb8-446e6b601eb0">
+  <PlacedClass>
+    <PlacedClass ClassId="9705dc45-b787-43d9-a81d-76eebb8a128d" Color="1692800256" LastKnownName="Class1" PickedFeatureVisibility="ShowAll" RenderedHeight="73" RenderedWidth="93" ShowAttributes="False" ShowMethods="False" Size="1" x="217" y="140" id="746c94e1-7656-4b2e-874b-17abb3a5894f">
+      <AssociationEndConnection>
+        <AssociationEndConnection LabelAngle="-0.785398163397448" LabelDistance="15" NextLegDrawKind="0" SideToUse="1" ViaPointsStartsHere="True" x="46.5" y="64" id="e50376c3-f02b-4345-abbc-ae20acb28796">
+          <AssociationEnd>
+            <AssociationEnd Name="Class1" idref="3ddc8ace-9bbf-4e27-af68-7e0ae3cb0728" />
+          </AssociationEnd>
+          <next>
+            <AssociationEndConnection LabelAngle="-0.785398163397448" LabelDistance="15" NextLegDrawKind="0" SideToUse="3" ViaPointsStartsHere="False" x="-46.5" y="40" id="6d419d4a-0fb2-46e8-82d8-31f03588b502">
+              <AssociationEnd>
+                <AssociationEnd Name="Class2" idref="56fd2855-bdb1-4b63-b0dc-a4167526fb21" />
+              </AssociationEnd>
+            </AssociationEndConnection>
+          </next>
+        </AssociationEndConnection>
+      </AssociationEndConnection>
+      <Class>
+        <Class Name="Class1" idref="9705dc45-b787-43d9-a81d-76eebb8a128d" />
+      </Class>
+    </PlacedClass>
+    <PlacedClass ClassId="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0" Color="1692800256" LastKnownName="Class2" PickedFeatureVisibility="ShowAll" RenderedHeight="73" RenderedWidth="93" ShowAttributes="False" ShowMethods="False" Size="1" x="403" y="223" id="a6835e88-ccfa-4193-a2fc-9fdcd25a16b6">
+      <AssociationEndConnection>
+        <AssociationEndConnection LabelAngle="-0.785398163397448" LabelDistance="15" NextLegDrawKind="0" SideToUse="3" ViaPointsStartsHere="False" x="-46.5" y="40" id="6d419d4a-0fb2-46e8-82d8-31f03588b502">
+          <AssociationEnd>
+            <AssociationEnd Name="Class2" idref="56fd2855-bdb1-4b63-b0dc-a4167526fb21" />
+          </AssociationEnd>
+        </AssociationEndConnection>
+      </AssociationEndConnection>
+      <Class>
+        <Class Name="Class2" idref="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0" />
+      </Class>
+    </PlacedClass>
+  </PlacedClass>
+</Diagram>

@@ -1,0 +1,22 @@
+﻿@model WebApiExampleNamespace.Controllers.IndexVM
+@{
+    ViewBag.Title = "MDrivenServer";
+}
+
+<div style="margin:20px;">
+    <img src="~/Content/logo-server.svg" height="200" style=" float: left;margin:20px;" />
+    <p>MDrivenServer is a PersistenceMapper that you connect an EcoSpace or/and a <a href="https://mdriven.net/turnkey" target="_blank">TurnkeyServer</a> to.</p>
+    <p>WepApi url to this <b>@Model.ServerUrl</b>API/A0_WebApi</p>
+    <p>The model for Persistence is derived from the <a href="https://mdriven.net/designer" target="_blank">MDrivenDesigner</a> model you upload.</p>
+    <p></p>
+    <p>
+        MDrivenServer can also:
+            <ul style="margin-left:180px;">
+                <li>Run jobs on an event and/or time</li>
+                <li>Handle cache invalidation</li>
+                <li>Show data via autoforms</li>
+                <li>Act as Master/Slave/History</li>
+            </ul>
+    </p>
+</div>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package Name="Package1" AdditionalNamespaces="" CodeGenCharacterMode="AllowUnicode" DefaultLength="255" GenerateNullableTypes="True" NameSpace="&lt;Default&gt;" ORMappingConfigMode="Medium" PluralSuffix="" id="ec91c593-f532-47e4-8fae-c7c3445a8800">
+  <OwnedElement>
+    <Class Name="Class2" AdditionalNamespaces="" IsAbstract="False" IsSealed="False" id="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0">
+      <Feature>
+        <Attribute Name="Attribute3" Multiplicity="" Visibility="Public" id="1b5e91a0-4b08-44a4-a4a5-8b16d1b440f5">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+        <Attribute Name="Attribute1" Multiplicity="" Visibility="Public" id="769d7700-85a7-406b-87ea-e1fcc0aa87d4">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+        <Attribute Name="Attribute2" Multiplicity="" Visibility="Public" id="9f82ce42-a320-407e-9c73-00445af1cb07">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+      </Feature>
+    </Class>
+    <Class Name="Class1" AdditionalNamespaces="" IsAbstract="False" IsSealed="False" id="9705dc45-b787-43d9-a81d-76eebb8a128d">
+      <Feature>
+        <Attribute Name="Attribute2" Multiplicity="" Visibility="Public" id="59393b48-1660-4029-9fdb-50da630da77b">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+        <Attribute Name="Attribute3" Multiplicity="" Visibility="Public" id="9f03ea3b-e166-4613-9d45-92ef190f02a6">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+        <Attribute Name="Attribute1" Multiplicity="" Visibility="Public" id="dde76b97-d737-464e-89c3-a53f68a3f7c9">
+          <TaggedValue>
+            <TaggedValue Tag="Eco.AllowNULL" Value="True" />
+          </TaggedValue>
+          <Type>
+            <Datatype idref="String" />
+          </Type>
+        </Attribute>
+      </Feature>
+    </Class>
+    <Association Name="" EffectiveName="Class2Class2Class1Class1" id="9bedca2e-dea2-4c10-b735-84b4eb5562f6">
+      <AssociationEnd>
+        <AssociationEnd Name="Class1" IsNavigable="True" Multiplicity="0..1" Visibility="Public" id="3ddc8ace-9bbf-4e27-af68-7e0ae3cb0728">
+          <Participant>
+            <Class Name="Class1" idref="9705dc45-b787-43d9-a81d-76eebb8a128d" />
+          </Participant>
+        </AssociationEnd>
+        <AssociationEnd Name="Class2" IsNavigable="True" Multiplicity="0..*" Visibility="Public" id="56fd2855-bdb1-4b63-b0dc-a4167526fb21">
+          <Participant>
+            <Class Name="Class2" idref="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0" />
+          </Participant>
+        </AssociationEnd>
+      </AssociationEnd>
+    </Association>
+  </OwnedElement>
+</Package>

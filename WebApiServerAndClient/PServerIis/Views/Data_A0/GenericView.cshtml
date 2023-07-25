@@ -1,0 +1,42 @@
+﻿@using Eco.ViewModel.Runtime
+@using Eco.MVC
+@model VMClass
+
+@{
+    ViewBag.Title = Model.ViewModelClass.Name;
+}
+
+    <div style="background: @ViewBag.LightBackColor;overflow: auto;">
+        <div style="background: @ViewBag.BackColor;">
+            <h3>@Model.ViewModelClass.IClass.Name - <a href="Data_A0/InstanceStats?id=@Model.ViewModelClass.IClass.Name">Stats</a></h3>
+        </div>
+        @using (Html.BeginForm("Submit", Html.GetControllerName(), FormMethod.Post))
+        {
+            <fieldset>
+                <div id="contentWrapper" class="@Model.ViewModelClass.Name mvc-rendered" style="@ViewBag.WidthStyle">
+                    <!-- Start of inserted MVC ViewModel body -->
+                    <div id="viewmodelWrapper">
+                        @Html.Partial(Html.RazorPartialFile())
+                        <!-- End of inserted MVC ViewModel body -->
+                    </div>
+                </div>
+                @if (!Model.ViewModelClass.Name.Contains("Seeker"))
+                {
+                    <div>
+                        <button id="SubmitButton" type="submit" value="Submit" class="tk-state-action ripple-effect update-action">Submit</button>
+                    </div>
+                    <div id="validationMessageWrapper">
+                        <div class="validationMessage">
+                            @Html.ValidationSummary(true)
+                        </div>
+                    </div>
+                }
+                <div class="form-group" style="display:none">
+                    @* When form is posted, the VMClassBinder recreates the viewmodel with data from the form, starting with the viewmodels name and root id below *@
+                    @Html.Hidden(VMClass.ThisAsExternalId_nameOf) <!-- This creates a hidden form attribute with the root objects external ID -->
+                    @Html.Hidden(VMClassBinder.ViewModelNameFormAttribute, Model.ViewModelClass.ViewModel.RootViewModelClass.Name)
+                </div>
+            </fieldset>
+        }
+    </div>
+

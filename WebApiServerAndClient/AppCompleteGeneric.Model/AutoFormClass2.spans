@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormClass2" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RequiresRootObject="True" RowCount="5" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="d34d219b-bd55-47d6-97db-13ff700260dc">
+  <Category>
+    <Category Name="AutoForms" idref="ea017d6a-5292-4fc3-8964-c422469a3b7e" />
+  </Category>
+  <Class>
+    <Class Name="Class2" idref="2a5d35b7-7e56-4993-9cb6-67dfe1c99cd0" />
+  </Class>
+  <OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ClassAction Name="ShowClass2" idref="5afcd614-6ec4-4db6-be54-ef09e834d9eb" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ContextAction Name="Show_Class1" idref="cd5e7b34-aabc-4279-9bbc-cfb2d761bf55" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+  </OptOutActionInSpan>
+  <OwnedColumns>
+    <Column Name="Attribute1" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute1" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="0" id="cb135ec8-0b59-4783-bd77-1bfc5523ac4e" />
+    <Column Name="Attribute2" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute2" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="1" id="c2b0044b-592e-4d65-9c38-71e1217a0e98" />
+    <Column Name="Attribute3" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute3" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="2" id="d5f7c574-bd9b-4ad7-8664-98866d9da969" />
+    <Column Name="Class1" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Class1.asstring" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="3" id="8d2380cc-88dc-42e1-8046-22838d8faf56" />
+    <Column Name="Class1_pick" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="Set" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="5" YPos="3" id="c7f84005-9ce7-4f64-8c6d-365087236f4f">
+      <ActionToExecute>
+        <ContextAction Name="SingleLinkSwitchClass1" idref="46c7cd23-eaca-4d19-b7bb-b7f17fdc3cb5" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="Class1_Show" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="..." PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="6" YPos="3" id="cb705e81-50e8-49a4-9237-b00a3cf4e99e">
+      <ActionToExecute>
+        <ContextAction Name="Show_Class1" idref="cd5e7b34-aabc-4279-9bbc-cfb2d761bf55" />
+      </ActionToExecute>
+    </Column>
+  </OwnedColumns>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>

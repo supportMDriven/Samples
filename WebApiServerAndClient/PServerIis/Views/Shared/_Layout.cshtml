@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href='@Url.Content("~/")' />
+
+    <title>@ViewBag.Title - MDrivenServer</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="~/Content/mdr-logo-small.png" class="smalllogo" />
+                @Html.ActionLink("MDrivenServer " + (string)ViewBag.ServerName, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Running</span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Model", "ModelInfo", "Home")</li>
+                            <li>@Html.ActionLink("PeriodicActions", "PeriodicActions", "Home")</li>
+                            <li>@Html.ActionLink("Log", "Log", "Home")</li>
+                            <li>@Html.ActionLink("WorkInfo", "WorkInfo", "Home")</li>
+                            <li>@Html.ActionLink("MemoryInfo", "MemoryInfo", "Home")</li>
+                            <li>@Html.ActionLink("Data in A0", "Data", "Home")</li>
+                            <li>@Html.ActionLink("Data in Admin", "DataAdmin", "Home")</li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Settings</span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("MasterSlave", "MasterSlave", "Home")</li>
+                            <li>@Html.ActionLink("Cacheinvalidation", "Cacheinvalidation", "Home")</li>
+                           <li>@Html.ActionLink("Users", "Users", "Home")</li>
+                            <li>@Html.ActionLink("Admin", "Admin", "Home")</li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - MDriven AB, @ViewBag.InfoAboutConnection, @ViewBag.PortalId</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script src="~/Scripts/js-cookie/js.cookie.js"></script>
+    <script src="~/JSMVC/MVCInteraction.js"></script>
+
+  
+</body>
+</html>
