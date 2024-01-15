@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Span Name="AutoFormClass1Seeker" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RowCount="5" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="f37e453d-cb67-49f0-89ba-663e67290a7d">
+  <AccessGroups>
+    <AccessGroup Name="AllowedAccess" idref="56b17150-bee6-469f-9820-f83ab5c3d89f" />
+  </AccessGroups>
   <Category>
     <Category Name="AutoForms" idref="39f17d0f-fd7d-4704-833a-00a76e2befc5" />
   </Category>

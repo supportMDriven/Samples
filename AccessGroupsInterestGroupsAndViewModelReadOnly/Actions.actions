@@ -333,6 +333,7 @@
   <AccessGroup Name="AllowedAccess" ActAsInterestGroup="False" CodeComment="" EnableExpression="" ViewEnableExpression="Singleton.oclSingleton.AllowedAccess" VisibleExpression="" Id="56b17150-bee6-469f-9820-f83ab5c3d89f">
     <ViewModels>
       <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+      <Span Name="AutoFormClass1Seeker" idref="f37e453d-cb67-49f0-89ba-663e67290a7d" />
     </ViewModels>
   </AccessGroup>
   <AccessGroup Name="Intrested" ActAsInterestGroup="True" CodeComment="" EnableExpression="" ViewEnableExpression="" VisibleExpression="Singleton.oclSingleton.Interested" Id="f27fa3c0-fef1-416e-a459-436bca64a129">
