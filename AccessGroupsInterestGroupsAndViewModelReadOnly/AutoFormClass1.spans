@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormClass1" ColCount="15" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RequiresRootObject="True" RowCount="6" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6">
+  <AccessGroups>
+    <AccessGroup Name="AllowedAccess" idref="56b17150-bee6-469f-9820-f83ab5c3d89f" />
+  </AccessGroups>
+  <Category>
+    <Category Name="AutoForms" idref="39f17d0f-fd7d-4704-833a-00a76e2befc5" />
+  </Category>
+  <Class>
+    <Class Name="Class1" idref="da3b84ee-15eb-4123-a037-d0c129ddc15e" />
+  </Class>
+  <Nesting>
+    <Nesting Name="NewNestedViewModelClass" ExpressionActAsForActions="" id="1e9afc30-7558-4bca-bf5d-3a3e9b0558e6">
+      <OwnedColumns>
+        <Column Name="Enabled" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="self.Enabled.asstring" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="1" id="e502057b-6159-4ca1-bbad-237f205fa03b" />
+        <Column Name="Name" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="self.ActionName" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="2aef29cf-551c-4517-bf61-71ddce2f1eff" />
+      </OwnedColumns>
+      <ReferedByColumn>
+        <Column Name="LeftSideActionsAsData" idref="e97b378d-a80e-460f-8314-7771b11c310e" />
+      </ReferedByColumn>
+    </Nesting>
+  </Nesting>
+  <OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ClassAction Name="ShowClass1" idref="4604ed4a-3bdf-44aa-99a0-4e81bd9eebea" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ContextAction Name="MultiLinkClass2s" idref="d8f9c3a1-6ec5-4230-93fb-b698df1e0fde" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+  </OptOutActionInSpan>
+  <OwnedColumns>
+    <Column Name="Attribute1" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute1" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="0" id="d19b2ee8-5751-4437-bcc5-7119fd54fa2a" />
+    <Column Name="Attribute2" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute2" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="1" id="b0b524c6-96c5-4c02-b673-5d222dfb0dfa" />
+    <Column Name="Attribute3" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute3" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="2" id="4d6abbe9-48dc-4a1a-82a2-e05fd67f501f" />
+    <Column Name="ShowMultiLink_Class2sNavigation" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;..." PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="2" YPos="3" id="9ee7efab-7302-4b74-b03e-eedd2d37d8f3">
+      <ActionToExecute>
+        <ContextAction Name="MultiLinkClass2s" idref="d8f9c3a1-6ec5-4230-93fb-b698df1e0fde" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="vSomeVar" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="vSomeVar" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="6" YPos="0" id="c99a265f-018f-4d1f-84ef-d545b557c731" />
+    <Column Name="ChangeVarInButton" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="vSomeVar:=self.Attribute1+'A'" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="5" YPos="1" id="a3552c7e-7bb0-4792-abf7-e2bc570f25de" />
+    <Column Name="RealChangeInButton" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="self.Attribute1:=vSomeVar+'A'" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="5" YPos="2" id="290940da-857e-45ad-a3eb-3d93aa3524ae" />
+    <Column Name="ButtonChangeAssoc" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="self.CLass2s.Add(Class2.Create)" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="5" YPos="3" id="4030f014-dc80-4fe8-941a-8524460c0211" />
+    <Column Name="ButtonConnectedToChangeThings" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="self" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="7" YPos="1" id="9c51c577-3b6c-43eb-996f-e7b07f0c68c4">
+      <ActionToExecute>
+        <ContextAction Name="ActionThatChangeThings" idref="3ae86513-0458-4611-8e6d-4571f22794c6" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="ButtonConnectedToVarsAction" ActionPeriodicityMillisec="-1" ColSpan="2" ColSpanWhenInGrid="1" Expression="self" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="7" YPos="2" id="ac5dc4ee-e09e-429d-a404-22b624855e86">
+      <ActionToExecute>
+        <ContextAction Name="ActionThatChangeVars" idref="24665b16-a479-48e3-89bb-e157e691fbbb" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="LeftSideActionsAsData" ActionPeriodicityMillisec="-1" ColSpan="4" ColSpanWhenInGrid="1" Expression="selfVM.ListActions( 'AutoFormClass1')" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="5" StyleRef="" XPos="9" YPos="0" id="e97b378d-a80e-460f-8314-7771b11c310e">
+      <ReferedNesting>
+        <Nesting Name="NewNestedViewModelClass" idref="1e9afc30-7558-4bca-bf5d-3a3e9b0558e6" />
+      </ReferedNesting>
+    </Column>
+  </OwnedColumns>
+  <SpanVariables>
+    <SpanVariable Name="vSomeVar" InitialValue="" TypeName="String" UserData="" />
+  </SpanVariables>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormSingleton" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RequiresRootObject="True" RowCount="3" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="f0fe36aa-3b37-470a-8003-090368683311">
+  <Category>
+    <Category Name="AutoForms" idref="39f17d0f-fd7d-4704-833a-00a76e2befc5" />
+  </Category>
+  <Class>
+    <Class Name="Singleton" idref="8fc7797d-a417-42a9-9285-f730db2cf9b2" />
+  </Class>
+  <OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ClassAction Name="ShowSingleton" idref="8edab2df-4032-4778-b44a-245d305074aa" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+  </OptOutActionInSpan>
+  <OwnedColumns>
+    <Column Name="AllowdAccess" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.AllowedAccess" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="0" id="e3073940-d820-46d8-a99e-9da7eeef5ba4" />
+    <Column Name="Interested" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Interested" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="1" id="2fe17078-73a2-4fe9-940a-d9ee6c67e969" />
+  </OwnedColumns>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>

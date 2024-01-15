@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormSingletonSeeker" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RowCount="5" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="3a3651b1-1bb9-4540-99fe-94ed2c619ae8">
+  <Category>
+    <Category Name="AutoForms" idref="39f17d0f-fd7d-4704-833a-00a76e2befc5" />
+  </Category>
+  <Class>
+    <Class Name="Singleton" idref="8fc7797d-a417-42a9-9285-f730db2cf9b2" />
+  </Class>
+  <Nesting>
+    <Nesting Name="Singleton" ExpressionActAsForActions="" id="aa779857-4cd7-44f4-b3dd-a000fb6fa8ac">
+      <Class>
+        <Class Name="Singleton" idref="8fc7797d-a417-42a9-9285-f730db2cf9b2" />
+      </Class>
+      <OwnedColumns>
+        <Column Name="AsString" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.asString" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="4d336d23-7382-4596-94bc-c1d88ab6cc30" />
+        <Column Name="AllowdAccess" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="2" Expression="self.AllowedAccess" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="c9f6c52c-5f9d-41da-bb4f-4a387938978e" />
+      </OwnedColumns>
+      <ReferedByColumn>
+        <Column Name="Results" idref="eb634b9f-0c12-4711-98b8-c2486d08503f" />
+      </ReferedByColumn>
+      <TaggedValue>
+        <TaggedValue Tag="MultiSelect" Value="true" />
+        <TaggedValue Tag="IsSeekerResultGrid" Value="true" />
+      </TaggedValue>
+    </Nesting>
+    <Nesting Name="seekcrit" ExpressionActAsForActions="" UsedForSeekerColumns="True" id="3388cedb-3045-44d8-8ca3-7f895484ed6f">
+      <Class>
+        <Class Name="Singleton" idref="8fc7797d-a417-42a9-9285-f730db2cf9b2" />
+      </Class>
+      <OwnedColumns>
+        <Column Name="Crit1" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="Singleton.allinstances" ExpressionForReadOnly="" ExpressionForVisible="vSeekParam-&gt;isnullorempty" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="00a10fc9-1348-47bb-8e53-3a00e5a082cd" />
+      </OwnedColumns>
+      <TaggedValue>
+        <TaggedValue Tag="Eco.HiliteGridColumn" Value="" />
+      </TaggedValue>
+    </Nesting>
+  </Nesting>
+  <OwnedColumns>
+    <Column Name="Filter" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="vSeekParam" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="1" YPos="0" id="d1de8acc-4cc3-40be-8396-534f5cc232db" />
+    <Column Name="Search" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="vSeekParamWildcard:='%'+vSeekParam+'%';selfVM.Search" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="4" YPos="0" id="4f79dc7d-970f-4c87-b064-5f4ab4b36fae" />
+    <Column Name="Results" ActionPeriodicityMillisec="-1" ColSpan="10" ColSpanWhenInGrid="1" Expression="vSeekerResult" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="1" RowSpan="10" StyleRef="" XPos="0" YPos="2" id="eb634b9f-0c12-4711-98b8-c2486d08503f">
+      <ReferedNesting>
+        <Nesting Name="Singleton" idref="aa779857-4cd7-44f4-b3dd-a000fb6fa8ac" />
+      </ReferedNesting>
+    </Column>
+  </OwnedColumns>
+  <SpanVariables>
+    <SpanVariable Name="vSeekerOrderColumnName" InitialValue="" TypeName="String" UserData="" />
+    <SpanVariable Name="vSeekerOrderReverseState" InitialValue="" TypeName="Boolean" UserData="" />
+    <SpanVariable Name="vSeekerPage" InitialValue="" TypeName="Integer" UserData="" />
+    <SpanVariable Name="vSeekerPageCount" InitialValue="" TypeName="Integer" UserData="" />
+    <SpanVariable Name="vSeekerPageLength" InitialValue="100" TypeName="Integer" UserData="" />
+    <SpanVariable Name="vSeekerResult" InitialValue="" TypeName="Collection(Singleton)" UserData="" />
+    <SpanVariable Name="vSeekerResultCount" InitialValue="" TypeName="Int64" UserData="" />
+    <SpanVariable Name="vSeekParam" InitialValue="" TypeName="String" UserData="" />
+    <SpanVariable Name="vSeekParamWildcard" InitialValue="" TypeName="String" UserData="" />
+  </SpanVariables>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>

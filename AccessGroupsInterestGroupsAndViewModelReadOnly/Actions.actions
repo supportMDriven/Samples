@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<allactions>
+  <GlobalAction Name="Undo" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="Undo" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="04085f1d-9724-4db8-99f2-e23c7cf45d47">
+    <MenuGroup>
+      <MenuGroup Name="Edit" idref="fcee469a-9ec3-4ced-9bcc-8c754d3d9525" />
+    </MenuGroup>
+  </GlobalAction>
+  <ContextAction Name="ActionThatChangeVars" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vSomeVar:=vSomeVar+'A'" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="24665b16-a479-48e3-89bb-e157e691fbbb">
+    <OnlyInThis>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </OnlyInThis>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <GlobalAction Name="Exit" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="Exit" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="29cadcea-ef37-4b12-9a0f-6f7c51ff52cd">
+    <MenuGroup>
+      <MenuGroup Name="File" idref="139206f2-98a3-48d4-bb84-74b9fd5e032a" />
+    </MenuGroup>
+  </GlobalAction>
+  <GlobalAction Name="Toggle" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="Singleton.oclSingleton.AllowedAccess:=not Singleton.oclSingleton.AllowedAccess" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="2a215cee-3ca0-477e-ae23-d110d49382d3" />
+  <ContextAction Name="ActionThatChangeThings" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vCurrent_AutoFormClass1.Attribute1:=vCurrent_AutoFormClass1.Attribute1+'X'" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="3ae86513-0458-4611-8e6d-4571f22794c6">
+    <OnlyInThis>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </OnlyInThis>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="Show_Class1" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="vCurrent_AutoFormClass2.Class1-&gt;notempty" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="vCurrent_AutoFormClass2.Class1" Id="42243688-89cb-4bbc-8a46-647eba4ecb5a">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </ViewModelContext>
+  </ContextAction>
+  <ClassAction Name="ShowClass1" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" IsDragAction="False" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="self" Id="4604ed4a-3bdf-44aa-99a0-4e81bd9eebea">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </BringUpViewModel>
+    <ClassToPerformActionOn>
+      <Class Name="Class1" idref="da3b84ee-15eb-4123-a037-d0c129ddc15e" />
+    </ClassToPerformActionOn>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </ClassAction>
+  <ContextAction Name="DeleteThis" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vCurrent_AutoFormClass2.Delete" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="508198d5-33e7-4210-8057-fccd46053aba">
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="unlinkClass2" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="vCurrent_Class2s-&gt;notnull" ExecuteExpression="vSelected_Class2s-&gt;collect(x|vCurrent_AutoFormClass1Class2sMultiLink.Class2s.remove(x))" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="50de9f51-8b9b-4e0a-a305-6b39549f3cb8">
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="FindAndAddClass2" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="vModalResult_vSelected_Class2-&gt;collect(x|vCurrent_AutoFormClass1Class2sMultiLink.Class2s.add(x))" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="True" ViewModelModalOkEnableExpression="vSelected_Class2-&gt;size&gt;0" ViewModelRootObjectExpression="" Id="5cf25416-ef24-4322-9007-fd621c6b648c">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass2Seeker" idref="c80e15ce-cbe7-48e2-a847-b96c394e51b9" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="CreateAndAddClass2" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="let x=Class2.Create in( vCurrent_AutoFormClass1Class2sMultiLink.Class2s.add(x);x)" Id="659232a4-8959-4487-a1a3-5d858ba2dae7">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </ViewModelContext>
+  </ContextAction>
+  <GlobalAction Name="AutoFormClass1Seeker" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="6e7a22e6-c1b6-4fab-ae6f-597387bcd926">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1Seeker" idref="f37e453d-cb67-49f0-89ba-663e67290a7d" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </GlobalAction>
+  <GlobalAction Name="AutoFormSingletonSeeker" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="8802da7e-ae89-43c4-aee7-62b2d3b72480">
+    <BringUpViewModel>
+      <Span Name="AutoFormSingletonSeeker" idref="3a3651b1-1bb9-4540-99fe-94ed2c619ae8" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </GlobalAction>
+  <ClassAction Name="ShowSingleton" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" IsDragAction="False" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="self" Id="8edab2df-4032-4778-b44a-245d305074aa">
+    <BringUpViewModel>
+      <Span Name="AutoFormSingleton" idref="f0fe36aa-3b37-470a-8003-090368683311" />
+    </BringUpViewModel>
+    <ClassToPerformActionOn>
+      <Class Name="Singleton" idref="8fc7797d-a417-42a9-9285-f730db2cf9b2" />
+    </ClassToPerformActionOn>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </ClassAction>
+  <GlobalAction Name="Save" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="Save" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="9ad1408a-b8f5-4dd0-9b8f-a1fbac9b8b22">
+    <MenuGroup>
+      <MenuGroup Name="File" idref="139206f2-98a3-48d4-bb84-74b9fd5e032a" />
+    </MenuGroup>
+  </GlobalAction>
+  <ClassAction Name="ShowClass2" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" IsDragAction="False" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="self" Id="9b5be372-c987-4863-98c0-670e224f50bf">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </BringUpViewModel>
+    <ClassToPerformActionOn>
+      <Class Name="Class2" idref="2a699e16-4906-45b6-a8cc-683e2117031d" />
+    </ClassToPerformActionOn>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </ClassAction>
+  <ContextAction Name="LowInterestActionThatChangeThings" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vCurrent_AutoFormClass1.Attribute1:=vCurrent_AutoFormClass1.Attribute1+'X'" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="9d4573d3-fb86-486d-bc56-3f504c2c1070">
+    <AccessGroups>
+      <AccessGroup Name="Intrested" idref="f27fa3c0-fef1-416e-a459-436bca64a129" />
+    </AccessGroups>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </OnlyInThis>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="DeleteThis" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vCurrent_AutoFormSingleton.Delete" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="ab6327a9-3db6-4753-96f3-b275a37990da">
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormSingleton" idref="f0fe36aa-3b37-470a-8003-090368683311" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormSingleton" idref="f0fe36aa-3b37-470a-8003-090368683311" />
+    </ViewModelContext>
+  </ContextAction>
+  <GlobalAction Name="Redo" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="Redo" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="afe0407e-bcdd-40f3-af63-95725fe65a94">
+    <MenuGroup>
+      <MenuGroup Name="Edit" idref="fcee469a-9ec3-4ced-9bcc-8c754d3d9525" />
+    </MenuGroup>
+  </GlobalAction>
+  <GlobalAction Name="Refresh" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="Refresh" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="b56fdf1d-bfd5-4566-bdca-a2c7f26f632a">
+    <MenuGroup>
+      <MenuGroup Name="File" idref="139206f2-98a3-48d4-bb84-74b9fd5e032a" />
+    </MenuGroup>
+  </GlobalAction>
+  <ContextAction Name="NewSingleton" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="Singleton.Create" Id="b92628de-27d2-4224-8fe0-736e5fdc4755">
+    <BringUpViewModel>
+      <Span Name="AutoFormSingleton" idref="f0fe36aa-3b37-470a-8003-090368683311" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormSingletonSeeker" idref="3a3651b1-1bb9-4540-99fe-94ed2c619ae8" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormSingletonSeeker" idref="3a3651b1-1bb9-4540-99fe-94ed2c619ae8" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="DeleteThis" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vCurrent_AutoFormClass1.Delete" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="c25f8b27-8256-4e89-9da5-0b1794d48a52">
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="NewClass2" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="Class2.Create" Id="c366d98f-1cc0-48b0-bf7c-b1f12fa6389e">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass2Seeker" idref="c80e15ce-cbe7-48e2-a847-b96c394e51b9" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass2Seeker" idref="c80e15ce-cbe7-48e2-a847-b96c394e51b9" />
+    </ViewModelContext>
+  </ContextAction>
+  <GlobalAction Name="AutoFormClass2Seeker" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="d1f56b01-be25-44a6-89a2-2fb2f215731e">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass2Seeker" idref="c80e15ce-cbe7-48e2-a847-b96c394e51b9" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+  </GlobalAction>
+  <ContextAction Name="SingleLinkSwitchClass1" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="true" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="vCurrent_AutoFormClass2.Class1:= vModalResult_vCurrent_Class1" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="True" ViewModelModalOkEnableExpression="true" ViewModelRootObjectExpression="" Id="d25c11ab-73e5-4d6d-873d-d95e29cdb0c3">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1Seeker" idref="f37e453d-cb67-49f0-89ba-663e67290a7d" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass2" idref="e756b8e5-e939-4cb5-b79a-8efda817b958" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="MultiLinkClass2s" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="vCurrent_AutoFormClass1" Id="d8f9c3a1-6ec5-4230-93fb-b698df1e0fde">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1Class2sMultiLink" idref="162c8153-19ac-419f-9f45-f4ed052ab28a" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="NewClass1" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="Class1.Create" Id="dcac9183-6ca4-4c0c-8144-d8b1498f5016">
+    <BringUpViewModel>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </BringUpViewModel>
+    <MenuGroup>
+      <MenuGroup Name="AutoForms" idref="9c7ea686-e773-4913-9d2f-fd4251447558" />
+    </MenuGroup>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1Seeker" idref="f37e453d-cb67-49f0-89ba-663e67290a7d" />
+    </OnlyInThis>
+    <TaggedValue>
+      <TaggedValue Tag="AutoForm" Value="true" />
+    </TaggedValue>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1Seeker" idref="f37e453d-cb67-49f0-89ba-663e67290a7d" />
+    </ViewModelContext>
+  </ContextAction>
+  <ContextAction Name="LowInterestActionThatChangeVars" AreYouSureCancelVerb="" AreYouSureExecuteVerb="" AreYouSureQuestion="" CodeComment="" DividerGroupTag="" DividerGroupTagSortKey="" EnableExpression="" ExecuteExpression="vSomeVar:=vSomeVar+'A'" ExecuteFrameworkRuntimeAction="None" HintWhenDisabled="" HintWhenEnabled="" Presentation="&lt;Name&gt;" ShortcutKey="" ShortcutKeyModifierAlt="False" ShortcutKeyModifierControl="False" ShortcutKeyModifierShift="False" ShortcutKeyModifierWindows="False" SubMenuGroup="" SubMenuGroupSortKey="" ViewModelExecuteExpressionAfterModalOk="" ViewModelExecuteExpressionOnShow="" ViewModelIsModal="False" ViewModelModalOkEnableExpression="" ViewModelRootObjectExpression="" Id="e47a2c01-8aca-41de-9ef6-0e9f337b84b2">
+    <AccessGroups>
+      <AccessGroup Name="Intrested" idref="f27fa3c0-fef1-416e-a459-436bca64a129" />
+    </AccessGroups>
+    <OnlyInThis>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </OnlyInThis>
+    <ViewModelContext>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModelContext>
+  </ContextAction>
+  <MenuGroup Name="AutoForms" SortKey="99999" Id="9c7ea686-e773-4913-9d2f-fd4251447558" />
+  <MenuGroup Name="Edit" SortKey="002" Id="fcee469a-9ec3-4ced-9bcc-8c754d3d9525" />
+  <MenuGroup Name="File" SortKey="001" Id="139206f2-98a3-48d4-bb84-74b9fd5e032a" />
+  <MenuGroup Name="Seekers" SortKey="003" Id="e740ed77-3f07-4644-be1e-cce1d6f1c853" />
+  <MenuGroup Name="Views" SortKey="004" Id="dc044d7a-84ca-410a-9fcb-761c70c5637a" />
+  <AccessGroup Name="AllowedAccess" ActAsInterestGroup="False" CodeComment="" EnableExpression="" ViewEnableExpression="Singleton.oclSingleton.AllowedAccess" VisibleExpression="" Id="56b17150-bee6-469f-9820-f83ab5c3d89f">
+    <ViewModels>
+      <Span Name="AutoFormClass1" idref="5193da1c-9d1a-41d3-a9b0-61ebafe8cfa6" />
+    </ViewModels>
+  </AccessGroup>
+  <AccessGroup Name="Intrested" ActAsInterestGroup="True" CodeComment="" EnableExpression="" ViewEnableExpression="" VisibleExpression="Singleton.oclSingleton.Interested" Id="f27fa3c0-fef1-416e-a459-436bca64a129">
+    <AbstractActions>
+      <ContextAction Name="LowInterestActionThatChangeThings" idref="9d4573d3-fb86-486d-bc56-3f504c2c1070" />
+      <ContextAction Name="LowInterestActionThatChangeVars" idref="e47a2c01-8aca-41de-9ef6-0e9f337b84b2" />
+    </AbstractActions>
+  </AccessGroup>
+</allactions>

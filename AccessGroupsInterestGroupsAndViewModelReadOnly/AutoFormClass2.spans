@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Span Name="AutoFormClass2" ColCount="10" ColWidth="50" ExpressionActAsForActions="" ExpressionForAccess="" RequiresRootObject="True" RowCount="6" RowHeight="20" TabOrder="DisplayOrderYBeforeX" id="e756b8e5-e939-4cb5-b79a-8efda817b958">
+  <Category>
+    <Category Name="AutoForms" idref="39f17d0f-fd7d-4704-833a-00a76e2befc5" />
+  </Category>
+  <Class>
+    <Class Name="Class2" idref="2a699e16-4906-45b6-a8cc-683e2117031d" />
+  </Class>
+  <OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ClassAction Name="ShowClass2" idref="9b5be372-c987-4863-98c0-670e224f50bf" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+    <OptOutActionInSpan>
+      <AbstractAction>
+        <ContextAction Name="Show_Class1" idref="42243688-89cb-4bbc-8a46-647eba4ecb5a" />
+      </AbstractAction>
+    </OptOutActionInSpan>
+  </OptOutActionInSpan>
+  <OwnedColumns>
+    <Column Name="Attribute1" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute1" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="0" id="6e3e7e27-79f5-415e-8de8-fb30499ce22c" />
+    <Column Name="Attribute2" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute2" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="1" id="422bb70a-f689-46a0-ade0-52f93385fc2d" />
+    <Column Name="Attribute3" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute3" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="2" id="99925385-fd3e-4d0f-86ac-d751fa37d297" />
+    <Column Name="Attribute4" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Attribute4" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="3" id="941b9f64-c9c4-460e-b73c-6e3ca104d231" />
+    <Column Name="Class1" ActionPeriodicityMillisec="-1" ColSpan="3" ColSpanWhenInGrid="1" Expression="self.Class1.asstring" ExpressionForReadOnly="true" ExpressionForVisible="" IsAction="False" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="&lt;Name&gt;" PresentationStringColSpan="2" RowSpan="1" StyleRef="" XPos="2" YPos="4" id="804737db-d237-462d-8608-db755c2150f0" />
+    <Column Name="Class1_pick" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="Set" PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="5" YPos="4" id="27cac439-48d4-4a7d-a065-1269d5e0e62b">
+      <ActionToExecute>
+        <ContextAction Name="SingleLinkSwitchClass1" idref="d25c11ab-73e5-4d6d-873d-d95e29cdb0c3" />
+      </ActionToExecute>
+    </Column>
+    <Column Name="Class1_Show" ActionPeriodicityMillisec="-1" ColSpan="1" ColSpanWhenInGrid="1" Expression="" ExpressionForReadOnly="" ExpressionForVisible="" IsAction="True" IsStatic="False" NullRowMode="None" NullRowRepresentation="" PresentationString="..." PresentationStringColSpan="1" RowSpan="1" StyleRef="" XPos="6" YPos="4" id="3065c9a4-02ac-46c0-8c31-e0f8029f062f">
+      <ActionToExecute>
+        <ContextAction Name="Show_Class1" idref="42243688-89cb-4bbc-8a46-647eba4ecb5a" />
+      </ActionToExecute>
+    </Column>
+  </OwnedColumns>
+  <TaggedValue>
+    <TaggedValue Tag="AutoForm" Value="true" />
+  </TaggedValue>
+</Span>
